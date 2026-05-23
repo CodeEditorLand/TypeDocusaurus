@@ -8,13 +8,13 @@
     "pkg": "ncc build src/index.ts -o dist -e typedoc -e typedoc-plugin-markdown"
   },
   "devDependencies": {
-    "@types/node": "^14.14.35",
-    "@vercel/ncc": "^0.28.5",
+    "@types/node": "^25.9.1",
+    "@vercel/ncc": "^0.38.4",
     "override-require": "^1.1.1",
-    "tslib": "^2.1.0",
-    "typescript": "^4.2.3"
+    "tslib": "^2.8.1",
+    "typescript": "^6.0.3"
   },
   "dependencies": {
-    "@actions/core": "^1.2.6"
+    "@actions/core": "^3.0.1"
   }
 }
